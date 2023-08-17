@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 
-// type Tema = 'dark' | ''
+//  type Tema = 'dark' | ''
 
 interface AppContextProps {
     tema?: string
