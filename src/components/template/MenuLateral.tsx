@@ -1,5 +1,5 @@
 import useAuth from "../../data/hook/useAuth"
-import { IconeAjustes, IconeCasa, IconeSair, IconeSino } from "../icons"
+import { IconeAjustes, IconeCasa, IconeSair, IconeSino, News } from "../icons"
 import Logo from "./Logo"
 import MenuItem from "./MenuItem"
 
@@ -24,6 +24,7 @@ export default function MenuLateral() {
                 <MenuItem url="/" texto="Início" icone={IconeCasa} />
                 <MenuItem url="/ajustes" texto="Ajustes" icone={IconeAjustes} />
                 <MenuItem url="/notificacoes" texto="Notificações" icone={IconeSino} />
+                <MenuItem url="/news" texto="Noticias" icone={News} />
             </ul>
             <ul>
                 <MenuItem
